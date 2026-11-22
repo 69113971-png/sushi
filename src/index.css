@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --sh-obsidian: #171717;
+    --sh-ivory: #F5F0E6;
+    --sh-gold: #C6A56B;
+    --sh-burgundy: #7B252B;
+    --sh-white: #FFFFFF;
+    --sh-gray: #77716A;
+  }
+
+  body {
+    font-family: 'Noto Sans Thai', 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #F5F0E6;
+    color: #171717;
+  }
+
+  h1, h2, .font-display {
+    font-family: 'Cormorant Garamond', 'Noto Sans Thai', serif;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #FFFFFF !important;
+    color: #171717 !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SUSHI HOUSE",
+  "description": "A Taste of Japanese Elegance — Luxury Japanese dining, plate-color billing, split bill, PPQR payment, and loyalty rewards platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
